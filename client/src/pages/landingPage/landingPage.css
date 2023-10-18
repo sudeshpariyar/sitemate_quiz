@@ -1,0 +1,7 @@
+.all-issue-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+    padding-top: 1rem;
+}

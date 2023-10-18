@@ -1,0 +1,27 @@
+.issue-wrapper{
+    padding: 0.5em;
+    border: 1px solid #e6e6e6;
+}
+.issue-edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-wrappers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   
+}
+.delete-button{
+    background-color: red;
+    color: white;
+}
+.edit-button{
+    background-color: greenyellow;
+    color: grey;
+}
+.list-individual-issue{
+    padding-bottom: 1rem;
+}
