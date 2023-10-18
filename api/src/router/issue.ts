@@ -16,5 +16,14 @@ router.post("/", async (req: Request, res: Response) => {
 
   return res.send(issue);
 });
+router.get("/all", async (req: Request, res: Response) => {
+  const issueRepo = AppDataSource.getRepository(Issue);
+  const allIssues = await issueRepo.find();
+  if (allIssues.length) {
+    return res.status(200).json(allIssues);
+  } else {
+    return res.json("No Issues");
+  }
+});
 
 export default router;

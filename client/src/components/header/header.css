@@ -1,0 +1,20 @@
+.header-wrapper{
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+}
+
+.header-content{  
+    width: 84rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-name{
+    padding-left: 1rem;
+}
