@@ -1,9 +1,11 @@
 import express, { Express } from "express";
 import bodyParser from "body-parser";
 import "dotenv/config";
+import cors from "cors";
 
 const app: Express = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 const port = 4000;
 
